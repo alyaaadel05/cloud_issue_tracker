@@ -1,16 +1,12 @@
 {
-  "name": "cloud-issue-tracker",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "Cloud Issue Tracker semester starter application",
+  "description": "Cloud Issue Tracker browser frontend",
+  "private": true,
   "scripts": {
-    "start": "http-server frontend -p 9050"
+    "start": "http-server . -p 8080"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "http-server": "^14.1.1"
-  },
-  "main": "index.js",
-  "type": "commonjs"
+  }
 }
